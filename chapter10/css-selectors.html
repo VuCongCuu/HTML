@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>selectors</title>
+    <style>
+        *{
+            color: red;
+        }
+        p{
+            color: blue;
+        }
+        p>a{
+            color: black;
+        }
+        ul>li a{
+            background-color: gray;
+        }
+        ul>li>a{
+            font-size: 30px;
+        }
+        a:hover{
+            color: pink;
+        }
+        #top{
+            border: 1px solid;
+        }
+        .note{
+            color: #0431a3;
+        }
+
+
+    </style>
+</head>
+<body>
+<h1><a id="top">Kitchen Garden Cakendar</a> </h1>
+<p id="introduction">Here you can read our handy guide about what to do when.</p>
+<h2 class="note">Spring</h2>
+<ul>
+    <li><a href="mulch.html">Spring mulch vegetable beds</a></li>
+    <li><a href="potato.html">Plant out early Potatoes</a></li>
+    <li><a href="tomato.html">Sow tomato seeds</a></li>
+    <li><a href="beet.html">Sow beet seeds</a></li>
+    <li><a href="zucchini.html">Sow zucchini seeds</a></li>
+    <li><a href="rhubarb.html">Deadhead rhubarb flowers</a>
+        <div><a href="#">nested link</a></div></li>
+</ul>
+<p class="note introduction">this page was written by
+    <a href="mailto:jon@example.org">jon@example.org</a> for <a href="http://www,wiley.com">wiley</a>
+</p>
+<a href="#top">Top of page</a>
+</body>
+</html>
