@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Box Shadow</title>
+    <style type="text/css">
+        p {
+            width: 100px;
+            height: 100px;
+            background-color: #e1ddda;
+            margin: 20px;
+            display: inline-block;
+
+        }
+        /*do bong */
+        p.one{
+            box-shadow: -5px -5px #777777;
+        }
+        p.two{
+            box-shadow: 5px 5px 5px #777777;
+        }
+        p.three {
+
+            box-shadow: 5px 5px 5px 5px #777777;
+        }
+
+        p.four {
+            box-shadow: 0 0 20px #777777;
+            /*do bong ben ngoai*/
+        }
+
+        p.five {
+            box-shadow: inset 0 0 10px #777777;
+            /*do bong ben trong*/
+        }
+    </style>
+</head>
+<body>
+<p class="one">ONE</p>
+<p class="two">TWO</p>
+<p class="three">THREE</p>
+<br />
+<p class="four">FOUR</p>
+<p class="five">FIVE</p>
+
+</body>
+</html>
