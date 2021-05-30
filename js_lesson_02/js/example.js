@@ -1,0 +1,22 @@
+var header;
+var shipping;
+var name;
+var tiles=14;
+var sub= tiles*5;
+
+name='Montage House';
+shipping=7;
+header= "Howdy Molly,please check your order: ";
+var total= sub+ shipping ;
+var elheader=document.getElementById('greeting');
+elheader.textContent=header;
+var elname=document.getElementById('userSign');
+elname.textContent=name;
+var eltiles=document.getElementById('tiles');
+eltiles.textContent=tiles;
+var elsub=document.getElementById('subTotal');
+elsub.textContent= sub+"$";
+var elship=document.getElementById('shipping');
+elship.textContent=shipping+'$';
+var eltotal=document.getElementById('grandTotal');
+eltotal.textContent= total+'$';
